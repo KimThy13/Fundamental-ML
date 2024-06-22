@@ -66,8 +66,6 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
   - Concatenate these histograms to form feature vectors.
 
 - **Principal Component Analysis (PCA):**
-  - Standardize the data to have a mean of 0 and a variance of 1.
-  - Compute the covariance matrix of the standardized data.
   - Perform eigenvalue decomposition of the covariance matrix to obtain eigenvectors and eigenvalues.
   - Project the data onto the top principal components derived from the eigen decomposition.
 
@@ -97,6 +95,8 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
 |    MLP    |   0.486  |   0.479   |  0.486 |  0.476   |
 
 ![comparison_models](./materials/comparison_original_data.png)
+
+With Original Data (after feature engineering with HOG), models took the extremely mount of times for training and got evaluation on test dataset around 0.48 and 0.53. Highest is LightGBM.
 ### Apply PCA
 
 |   Model     | Accuracy | Precision | Recall | F1-score |
@@ -107,4 +107,6 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
 |    MLP_PCA   |   0.509  |   0.510   |  0.509 |  0.505   |
 
 ![comparison_models](./materials/comparison_pca_data.png)
+
+After applying PCA for dimensional reducing, the results of models are lower a bit. Highest is MLP model
 
