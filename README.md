@@ -55,6 +55,7 @@ The purpose of this dataset is to facilitate the development and evaluation of m
 
 The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels. These images are pre-processed with automatic alignment, ensuring that the faces are approximately centered and occupy a consistent area within each image. The goal of the dataset is to classify each face according to the emotion it expresses, with seven possible categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
 
+![image of data](./materials/data_images.png)
 ## Methodology
 
 ### Feature Engineering
