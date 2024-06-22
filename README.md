@@ -43,7 +43,7 @@ This project is designed to be completed in the following steps:
 
 Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
 
-## Purpose
+## :pushpin: Purpose
 
 The purpose of this dataset is to facilitate the development and evaluation of machine learning and deep learning models for recognizing and classifying human emotions from facial images. This standardized dataset aids researchers and developers in:
 
@@ -51,12 +51,13 @@ The purpose of this dataset is to facilitate the development and evaluation of m
 - Creating practical applications such as virtual assistants and security systems
 - Advancing the field of deep learning by providing consistent and comprehensive data for rigorous testing and benchmarking
 
-## Dataset
+## :file_folder: Dataset
 
 The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels. These images are pre-processed with automatic alignment, ensuring that the faces are approximately centered and occupy a consistent area within each image. The goal of the dataset is to classify each face according to the emotion it expresses, with seven possible categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
 
 ![image of data](./materials/data_images.png)
-## Methodology
+
+## :pick: Methodology
 
 ### Feature Engineering
 
@@ -84,7 +85,7 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
 - **Multilayer Perceptron (MLP) using PyTorch:**
   - Deep learning model comprising multiple layers of neurons, implemented using the PyTorch framework, capable of learning complex patterns.
 
-## Model Result
+## :bar_chart: Model Result
 
 ### Original Data
 
@@ -95,6 +96,7 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
 |  LightGBM |   0.520  |   0.523   |  0.520 |  0.513   |
 |    MLP    |   0.486  |   0.479   |  0.486 |  0.476   |
 
+![comparison_models](./materials/comparison_original_data.png)
 ### Apply PCA
 
 |   Model     | Accuracy | Precision | Recall | F1-score |
@@ -104,5 +106,5 @@ The dataset comprises 35,887 grayscale images of faces, each sized 48x48 pixels.
 |  LightGBM_PCA|   0.488  |   0.485   |  0.488 |  0.475   |
 |    MLP_PCA   |   0.509  |   0.510   |  0.509 |  0.505   |
 
-
+![comparison_models](./materials/comparison_pca_data.png)
 
