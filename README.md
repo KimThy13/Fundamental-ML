@@ -110,3 +110,6 @@ With Original Data (after feature engineering with HOG), models took the extreme
 
 After applying PCA for dimensional reducing, the results of models are lower a bit. Highest is MLP model
 
+## :pushpin: Further Work
+Future improvements can be made by exploring different data augmentation techniques, tuning hyperparameters, and trying other advanced models. Contributions to this project are welcome.
+
