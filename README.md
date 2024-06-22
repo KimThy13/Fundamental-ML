@@ -7,10 +7,10 @@ This repository contains the code and data for a mini-project on facial expressi
 
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
-    |1|Huynh Luu Vinh Phong|21280103|
-    |2|Ta Hoang Kim Thy|21280083|
-    |3|Nguyen Hai Ngoc Huyen|21280091|
-    |4|Tran Hoai Bac|21280006|
+    |1|Huỳnh Lưu Vĩnh Phong|21280103|
+    |2|Tạ Hoàng Kim Thy|21280083|
+    |3|Nguyễn Hải Ngọc Huyền|21280091|
+    |4|Trần Hoài Bắc|21280006|
 
 - The submission deadline is strict: **11:59 PM** on **June 22nd, 2024**. Commits pushed after this deadline will not be considered.
 
